@@ -4,7 +4,7 @@ name: "Generate Snap"
 on:
   workflow_dispatch:
     inputs:
-      tap_version:
+      snap_version:
         description: 'Version number of release to snap'
         required: true
 
