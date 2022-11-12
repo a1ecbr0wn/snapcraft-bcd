@@ -1,6 +1,6 @@
 name: bookmark-cd
 base: core20
-version: 'v0.2.5'
+version: 'v0.2.2'
 summary: bcd is a way to cd to directories that have been bookmarked.
 description: |
   bcd is a way to cd to directories that have been bookmarked.
@@ -17,7 +17,7 @@ plugs:
 parts:
   bookmark-cd:
     plugin: rust
-    source: https://github.com/a1ecbr0wn/bcd/archive/refs/tags/v0.2.5.tar.gz
+    source: https://github.com/a1ecbr0wn/bcd/archive/refs/tags/v0.2.2.tar.gz
 
 apps:
   bookmark-cd:
