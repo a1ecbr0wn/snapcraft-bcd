@@ -1,12 +1,18 @@
-name: bookmark-cd
+title: bookmark-cd
+name: bcd
+type: app
 base: core20
 version: ':snap_version'
-summary: bcd is a way to cd to directories that have been bookmarked.
+summary: bcd to a bookmarked directory
 description: |
   bcd is a way to cd to directories that have been bookmarked.
 
 grade: stable
-confinement: devmode # use 'strict' once you have the right plugs and slots
+confinement: strict
+issues: https://github.com/a1ecbr0wn/bcd/issues
+website: https://bcd.noser.net
+icon: img/bcd_icon.png
+license: Apache-2.0
 
 plugs:
   dot-bashrc:
