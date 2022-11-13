@@ -19,6 +19,7 @@ plugs:
     interface: personal-files
     write:
       - $HOME/.bashrc
+      - $HOME/.zshrc
 
 parts:
   bookmark-cd:
