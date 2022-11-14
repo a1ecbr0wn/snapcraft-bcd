@@ -5,7 +5,12 @@ base: core20
 version: ':snap_version'
 summary: bcd to a bookmarked directory
 description: |
-  bcd is a way to cd to directories that have been bookmarked.
+  `bcd` is a way to cd to directories that have been bookmarked.
+
+  Snapcraft does not allow write access to the shell init scripts which are required to set up `bcd` so the following commmand should be set up manually in your `~/.bashrc` if you are using bash or `~/.zshrc` if you are using zsh as your shell:
+
+     # bookmark-cd init block
+     eval "$(bookmark-cd init)"   
 
 grade: stable
 confinement: strict
