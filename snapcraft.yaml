@@ -24,6 +24,9 @@ plugs:
     interface: personal-files
     read:
       - $HOME/.bashrc
+  dot-zshrc:
+    interface: personal-files
+    read:
       - $HOME/.zshrc
 
 parts:
