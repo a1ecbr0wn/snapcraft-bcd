@@ -2,7 +2,7 @@ title: bookmark-cd
 name: bookmark-cd
 type: app
 base: core20
-version: 'v1.0.17'
+version: 'v1.0.18'
 summary: bcd to a bookmarked directory
 description: |
   `bcd` is a way to cd to directories that have been bookmarked.
@@ -32,7 +32,7 @@ plugs:
 parts:
   bookmark-cd:
     plugin: rust
-    source: https://github.com/a1ecbr0wn/bcd/archive/refs/tags/v1.0.17.tar.gz
+    source: https://github.com/a1ecbr0wn/bcd/archive/refs/tags/v1.0.18.tar.gz
 
 apps:
   bookmark-cd:
