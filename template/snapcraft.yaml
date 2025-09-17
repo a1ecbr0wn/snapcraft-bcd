@@ -29,6 +29,14 @@ plugs:
     interface: personal-files
     read:
       - $HOME/.zshrc
+  dot-config-fish:
+    interface: personal-files
+    read:
+      - $HOME/.config/fish/config.fish
+  dot-kshrc:
+    interface: personal-files
+    read:
+      - $HOME/.kshrc
 
 parts:
   bookmark-cd:
